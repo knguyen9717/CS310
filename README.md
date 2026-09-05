@@ -1,2 +1,4 @@
 # CS310
-Programming with C++
+## Contributors
+- Robert Flowers
+- Khanh Nguyen
