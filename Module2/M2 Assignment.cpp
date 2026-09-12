@@ -38,7 +38,7 @@ int main()
 
     // Format output to two decimal places with thousands separator
     cout << fixed << setprecision(2);
-    locale loc("en_US.UTF-8");
+    locale loc("");
     cout.imbue(loc);
 
     // Display results
