@@ -1,1 +1,49 @@
+#include <iostream>
+#include <iomanip>
+#include <locale>
 
+using namespace std;
+
+int main()
+{
+    double netBalance;
+    double payment;
+    int d1;
+    int d2;
+    double interestRate;
+    double averageDailyBalance;
+    double interest;
+
+    // Get input from the user
+    cout << "Enter the net balance: $";
+    cin >> netBalance;
+
+    cout << "Enter the payment amount: $";
+    cin >> payment;
+
+    cout << "Enter the number of days in the billing cycle: ";
+    cin >> d1;
+
+    cout << "Enter the number of days payment is made before billing cycle: ";
+    cin >> d2;
+
+    cout << "Enter the monthly interest rate (example: 0.0152): ";
+    cin >> interestRate;
+
+    // Calculate average daily balance
+    averageDailyBalance = (netBalance * d1 - payment * d2) / d1;
+
+    // Calculate interest
+    interest = averageDailyBalance * interestRate;
+
+    // Format output to two decimal places with thousands separator
+    cout << fixed << setprecision(2);
+    locale loc("en_US.UTF-8");
+    cout.imbue(loc);
+
+    // Display results
+    cout << "\nAverage Daily Balance: $" << averageDailyBalance << endl;
+    cout << "Interest: $" << interest << endl;
+
+    return 0;
+}
