@@ -12,9 +12,6 @@ int main() {
     if (!isValid) {
         std::cout << "Please enter a valid input." << std::endl;
     }
-    else if (isValid) {
-        std::cout << "Please enter a valid input." << std::endl;
-    }
     else {
         std::cout << "You've entered a valid input." << std::endl;
     }
