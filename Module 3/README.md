@@ -1,4 +1,4 @@
-# Module 3 – Control Statements I (Selection)
+# Module 3
 
 This module focuses on using selection statements in C++, including `if`, `if...else`, and `switch`.
 
