@@ -15,4 +15,4 @@ Created a simple program using a `for` loop to repeat an output statement five t
 
 Created a program that asks the user to enter the time needed to prepare the first dish (`a`), the additional time required for each following dish (`b`), and the total time available (`t`). The program uses a `while` loop to determine how many complete dishes Bianca can prepare within the available time.
 
-Assignment file: `Ch05Exercise33.cpp` (to be added after testing)
+[View assignment program](Ch05Exercise33.cpp)
