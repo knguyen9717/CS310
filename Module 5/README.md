@@ -15,3 +15,10 @@ Created a simple program using a user-defined value-returning function. The prog
 Created a program that asks the user for the hourly rate, consulting time in minutes, and whether the client has low income. The program uses a value-returning user-defined function to calculate the billing amount based on the required low-income and regular billing rules.
 
 [View assignment program](Ch06Exercise14.cpp)
+
+## Classmate Discussion Reply
+
+**Perez – Add It Up!**  
+Corrected two function-call errors in Perez's addition program: supplied both required arguments to `addNumbers` and changed `displayResults` to the declared `displayResult` function.
+
+[View corrected Perez program](ClassmateReply_Perez.cpp)
