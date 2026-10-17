@@ -9,6 +9,13 @@ Created a simple C++ program using an enumeration data type. The program contain
 
 [View discussion program](M6%20Discussion.cpp)
 
+## Programming Assignment
+
+**Chapter 7, Exercise 4 – Remove Vowels from a String**  
+Created a C++ program that prompts the user to enter a string and removes all uppercase and lowercase vowels. The program uses an `isVowel` function to check each character and a `removeVowels` function that uses `substr()` to remove vowels, then displays the resulting string.
+
+[View assignment program](Ch07Exercise04.cpp)
+
 ## Classmate Discussion Reply
 
 **Perez – What Is Today's Date? Enumeration Time**  
