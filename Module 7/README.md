@@ -9,6 +9,13 @@ Created a simple C++ program using a two-dimensional array and nested loops. It 
 
 [View discussion program](M7%20Discussion.cpp)
 
+## Programming Assignment
+
+**Chapter 8, Exercise 7 – Election Results**  
+Created a C++ program that collects the last names and vote totals of five election candidates using parallel arrays. The program calculates the total votes and each candidate's percentage of the total, displays the results in a formatted table, and identifies the candidate with the most votes.
+
+[View assignment program](Ch08Exercise07.cpp)
+
 ## Classmate Discussion Reply
 
 **Capodarco – Discussion with Two Errors**  
