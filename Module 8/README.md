@@ -9,6 +9,13 @@ Created a simple C++ program with two classes, `Student` and `Course`. The progr
 
 [View discussion program](M8%20Discussion.cpp)
 
+## Programming Assignment
+
+**Chapter 10, Exercise 21 – Bank Account Class**  
+Implemented a `bankAccount` class that stores the account holder's name, automatically assigned account number, account type, balance, and interest rate (stored as a decimal). The program uses a static member to assign account numbers, an array of ten account objects, and member functions to set account details, deposit, withdraw, add interest, and display account information.
+
+[View assignment program](Ch10Exercise21.cpp)
+
 ## Classmate Discussion Reply
 
 **Laack – Two Classes, Two Errors**  
