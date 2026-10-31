@@ -8,3 +8,10 @@ This module focuses on Chapter 11 of *C++ Programming: Program Design Including 
 Created a C++ program with an `Employee` base class and two derived classes, `Manager` and `Technician`. The program intentionally contains two compilation errors related to private-member access and calling a member function on the wrong derived class for classmates to debug.
 
 [View discussion program](M9%20Discussion.cpp)
+
+## Programming Assignment
+
+**Chapter 11, Exercise 13 – Bank Account Inheritance**  
+Implemented a `bankAccount` base class for account numbers, balances, deposits, withdrawals, and account details. Derived `checkingAccount` and `savingsAccount` classes add specialized features, including interest rates, minimum balances, service charges, writing checks, posting interest, and overridden withdrawal methods. The `main()` function demonstrates both account types.
+
+[View assignment program](Ch11Exercise13.cpp)
