@@ -15,3 +15,10 @@ Created a C++ program with an `Employee` base class and two derived classes, `Ma
 Implemented a `bankAccount` base class for account numbers, balances, deposits, withdrawals, and account details. Derived `checkingAccount` and `savingsAccount` classes add specialized features, including interest rates, minimum balances, service charges, writing checks, posting interest, and overridden withdrawal methods. The `main()` function demonstrates both account types.
 
 [View assignment program](Ch11Exercise13.cpp)
+
+## Classmate Discussion Reply
+
+**Laack – Subclass Consciousness!**  
+Corrected invalid direct access to private `Employee` data members in the `Manager` constructor by using a base-class constructor initializer list, and supplied the missing name argument when creating an `Employee` object.
+
+[View corrected Laack program](ClassmateReply_Laack.cpp)
